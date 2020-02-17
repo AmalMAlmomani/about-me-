@@ -1,0 +1,33 @@
+body {
+    background-color: rgba(65, 63, 63, 0.534);
+    text-align: left;
+    
+}
+h1 {
+    font-weight: bold;
+    border: 3px double;
+    font-size: 40px;
+    background-color: lightslategrey;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+    text-align: center ;
+    margin: 5px 300px 150px 300px;
+    padding: 25px 200px 25px 200px;
+
+
+}
+
+
+ p {
+    
+    font-size: 25px;
+    font-weight: bold;
+    border-style: solid;
+    border-width: 5px 1px 5px 1px;
+    margin: 50px 5px 50px 5px;
+    padding: 25px 50px 75px 100px;
+   color: black;
+   background-color: rgb(172, 151, 154);
+   
+   
+}
