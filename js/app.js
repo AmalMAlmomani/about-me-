@@ -111,9 +111,9 @@ switch (ques5.toLowerCase()) {
 ////////////////////////////////////////////////////////////////////////////
 
 
-for (var i = 0; i < 4; i++) {
+for (var i = 0; i <= 4; i++) {
     var ques6 = prompt("Guess what number I choose ? ");
-    if (i == 3) {
+    if (i == 4) {
         alert("the correct answer is 55");
         //console.log("Guess what number I choose ? ", ques6);
         break;
