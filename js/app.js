@@ -161,6 +161,7 @@ var places =['amman', 'ajlon', 'aqaba', 'jarash', 'madaba', 'kerak'];
 for (p = 0; p <= 6; p++) {
     if (p == 6) {
         alert("you are out of attempts! , the right answer are amman, ajlon, aqaba, jarash, madaba and kerak'");
+        //console.log("Guess what my favorite place ?", ques7);
         break;
     }
     var ques7 = prompt("Guess what my favorite place ?");
@@ -168,6 +169,7 @@ for (p = 0; p <= 6; p++) {
     for (l = 0, le = places.length; l < le; l++) {
         if (ques7 === places[l]) {
             alert("you are right");
+            //console.log("Guess what my favorite place ?", ques7);
             score++;
             break;
         }
