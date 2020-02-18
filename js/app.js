@@ -1,4 +1,5 @@
 `use strict`;
+const newLocal = 'Switzerland';
 var score = 0
 var yName = prompt("What is your name ?");
 console.log("What is your name ?", yName);
@@ -135,27 +136,31 @@ for (var i = 0; i < 4; i++) {
 }
 /////////////////////////////////////////
 
-var places =['Blue lagoon','Switzerland', 'Unaited state', 'lituania','Maldives','Greece'];
-for ( var p = 0 ; p <= 6  ; p++){
-    if( p == 6  ){
+var places = ['Blue lagoon', 'Switzerland', 'Unaited state', 'lituania', 'Maldives', 'Greece'];
+for (var p = 0; p <= 6; p++) {
+    if (p == 6) {
         alert("you are out of attempts! , the right answer are Blue lagoon,Switzerland, Unaited state, lituania, Maldives and Greece");
-        
-          break ;
+
+        break;
     }
     //console.log(places[p]);
     var ques7 = prompt("Guess what my favorite place ?");
-    if (ques7 === places[p]){
+    if (ques7 === places[p]) {
         alert("you are right");
         //console.log("Guess what my favorite place ?", ques7);
         score++;
         break;
-        
-    }
 
     }
 
 
-       alert(`Thank you  ${yName} , Your score is : ${score}`);
+}
+
+
+   
+
+
+alert(`Thank you  ${yName} , Your score is : ${score}`);
 
 
 
@@ -164,4 +169,4 @@ for ( var p = 0 ; p <= 6  ; p++){
 
 
 
-///////////////////////////////////////////////////////////////////////////////
+
