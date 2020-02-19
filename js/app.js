@@ -133,7 +133,7 @@ Q5();
 
 function Q6(){
 for (var i = 0; i <= 4; i++) {
-    var ques6 = prompt("Guess what number I choose ? ");
+    var ques6 = parseInt( prompt("Guess what number I choose ? "));
     if (i == 4) {
         alert("the correct answer is 55");
         //console.log("Guess what number I choose ? ", ques6);
