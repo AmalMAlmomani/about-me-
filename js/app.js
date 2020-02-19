@@ -1,5 +1,5 @@
 `use strict`;
-//const newLocal = 'Switzerland';
+
 var score = 0
 var yName = prompt("What is your name ?");
 console.log("What is your name ?", yName);
@@ -157,7 +157,11 @@ for (var p = 0; p <= 6; p++) {
 }*/
 //////////////////////////////////////////////////////////
 
-var places =['amman', 'ajlon', 'aqaba', 'jarash', 'madaba', 'kerak'];
+var places = ['amman', 'ajlon', 'aqaba', 'jarash', 'madaba', 'kerak'];
+
+//places.push('aaaa','ssss','dddd');
+//alert("array length"+ places.length);
+
 for (p = 0; p <= 6; p++) {
     if (p == 6) {
         alert("you are out of attempts! , the right answer are amman, ajlon, aqaba, jarash, madaba and kerak'");
@@ -171,11 +175,12 @@ for (p = 0; p <= 6; p++) {
             alert("you are right");
             //console.log("Guess what my favorite place ?", ques7);
             score++;
+            
             break;
         }
     }
-    if (ques7 === places[l]){
-        break ;
+    if (ques7 === places[l]) {
+        break;
 
     }
 }
