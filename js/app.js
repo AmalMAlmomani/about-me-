@@ -6,6 +6,7 @@ console.log("What is your name ?", yName);
 alert(`Welcome! ${yName}  `);
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////
+function Q1(){
 var ques1 = prompt("Do you think that I like animals ?");
 switch (ques1.toLowerCase()) {
     case 'yes':
@@ -24,7 +25,11 @@ switch (ques1.toLowerCase()) {
         //console.log("Do you think that I like animals ?", ques1);
         break;
 }
+}
+Q1();
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+function Q2(){
 var ques2 = prompt("Do you think that I like healthy food?");
 switch (ques2.toLowerCase()) {
     case 'yes':
@@ -43,7 +48,14 @@ switch (ques2.toLowerCase()) {
         //console.log("Do you think that I like healthy food?", ques2);
         break;
 }
+}
+
+
+
+Q2();
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+function Q3(){
 var ques3 = prompt("Do you think that I like coffee ?");
 
 switch (ques3.toLowerCase()) {
@@ -63,7 +75,11 @@ switch (ques3.toLowerCase()) {
         //console.log("Do you think that I like coffee ?", ques3);
         break;
 }
+}
+Q3();
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+function Q4 (){
 var ques4 = prompt("Do you think that I like draw ? ");
 
 switch (ques4.toLowerCase()) {
@@ -83,7 +99,11 @@ switch (ques4.toLowerCase()) {
         //console.log("Do you think that I like draw ? ", ques4);
         break;
 }
+}
+Q4();
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+function Q5(){
 var ques5 = prompt("Do you think that I like cars?");
 switch (ques5.toLowerCase()) {
     case 'yes':
@@ -102,7 +122,8 @@ switch (ques5.toLowerCase()) {
         //console.log("Do you think that I like cars?", ques5);
         break;
 }
-
+}
+Q5();
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
@@ -110,7 +131,7 @@ switch (ques5.toLowerCase()) {
 
 ////////////////////////////////////////////////////////////////////////////
 
-
+function Q6(){
 for (var i = 0; i <= 4; i++) {
     var ques6 = prompt("Guess what number I choose ? ");
     if (i == 4) {
@@ -134,6 +155,8 @@ for (var i = 0; i <= 4; i++) {
     }
 
 }
+}
+Q6();
 /////////////////////////////////////////
 /*
 var places = ['Blue lagoon', 'Switzerland', 'Unaited state', 'lituania', 'Maldives', 'Greece'];
@@ -157,11 +180,17 @@ for (var p = 0; p <= 6; p++) {
 }*/
 //////////////////////////////////////////////////////////
 
+<<<<<<< HEAD
 var places = ['amman', 'ajlon', 'aqaba', 'jarash', 'madaba', 'kerak'];
 
 //places.push('aaaa','ssss','dddd');
 //alert("array length"+ places.length);
 
+=======
+function Q7(){
+
+var places =['amman', 'ajlon', 'aqaba', 'jarash', 'madaba', 'kerak'];
+>>>>>>> 37fa63f48426fe97b814df7f39c495eb3c896cb1
 for (p = 0; p <= 6; p++) {
     if (p == 6) {
         alert("you are out of attempts! , the right answer are amman, ajlon, aqaba, jarash, madaba and kerak'");
@@ -184,8 +213,8 @@ for (p = 0; p <= 6; p++) {
 
     }
 }
-
-
+}
+Q7();
 
 
 
