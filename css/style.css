@@ -1,15 +1,17 @@
 body {
     background-color: rgba(65, 63, 63, 0.534);
     text-align: left;
-    
+    background-image: url(https://i.ytimg.com/vi/rdGhwe1Q6LY/maxresdefault.jpg);
+   
 }
 h1 {
+    position: fixed;
     font-weight: bold;
     border: 3px double;
-    font-size: 40px;
+    font-size: 100px;
     background-color: lightslategrey;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: larger;
+    font-family: 'Indie Flower';
+    font-size: xx-large;
     text-align: center ;
     margin: 5px 250px 150px 250px;
     padding: 25px 200px 25px 200px;
@@ -17,6 +19,9 @@ h1 {
 
 }
 
+p{
+    font-family: 'Shadows Into Light';
+}
 
  article {
     
@@ -24,17 +29,26 @@ h1 {
     font-weight: bold;
     border-style: solid;
     border-width: 5px 1px 5px 1px;
-    margin: 50px 5px 50px 5px;
+    margin: 150px 5px 50px 5px;
     padding: 25px 50px 75px 100px;
    color: black;
    background-color: rgb(172, 151, 154);
+  
    
    
 }
+h3{
+    font-family: 'Knewave';
+}
+
  ul {
      list-style-type: disc;
- }
- 
+     font-family: 'Yeon Sung';
+   
+    
+    }
+
  ol {
      list-style-type: decimal;
+     font-family: 'Yeon Sung';
  }
